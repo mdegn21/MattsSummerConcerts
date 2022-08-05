@@ -1,0 +1,41 @@
+/* 
+You also need to link to (and apply) a stylesheet that you have created from scratch. This stylesheet should include:
+At least four style definitions (it is possible you will have many more than four styles)
+Styles that specify font color
+Styles that specify font family
+At least three divs that are positioned and styled using your styles
+ */
+
+ .position-1 {
+    left: 20px;
+    top: 10px;
+ }
+
+ .custom-nav {
+    color: blue !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .custom-nav:hover {
+    color: #ffc800 !important;
+ }
+ .resume-header {
+    text-align: center;
+ }
+.resume-content {
+    padding-left: 10%;
+}
+
+.background {
+    color: black
+}
+
+.home-link {
+    margin-top: -500px;
+    margin-left: 50px;
+    width: 200px;
+    height: 100px;
+    font-size: 24;
+    color: brown;
+    background-color: white;
+    font-weight: 700;
+}
